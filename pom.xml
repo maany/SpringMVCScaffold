@@ -13,6 +13,7 @@
         <app-version>1.0.0-SNAPSHOT</app-version>
         <java-compiler-version>1.7</java-compiler-version>
         <spring.version>4.0.1.RELEASE</spring.version>
+        <jackson.version>1.9.13</jackson.version>
     </properties>
 
     <dependencies>
@@ -79,6 +80,13 @@
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
             <version>1.2</version>
+        </dependency>
+
+        <!-- Jackson JSON Mapper -->
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>${jackson.version}</version>
         </dependency>
     </dependencies>
 
